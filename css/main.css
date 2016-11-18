@@ -256,19 +256,19 @@ div>h3{
     background-color: rgba(255,238,230,0.7);
 }
 
-/*
+
 .place-about {
     float: left;
-    width: 47%;
+    width: 48%;
     min-height: 165px;
-    padding: .7%;
+    padding: .8%;
     margin: 2% 2% 2% 4%;
     text-align: justify;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     color: #635593;
 }
-*/
+
 .address {
     float: left;
     margin: 2% 2% 2% 2%;
@@ -542,7 +542,6 @@ color: #FF5733;
     border-radius: 50%;
     margin: 30px 40px 20px 40px;
 }
-
 
 .places {
     margin-left: 70px;
@@ -960,7 +959,7 @@ color: #FF5733;
     margin: 20px; 
 }
 
-.place-about {
+.place-about1 {
     float: left;
     width: 48%;
     height: 140px;
@@ -972,7 +971,7 @@ color: #FF5733;
     color: #635593;
 }
 
-.address {
+.address1 {
     float: right;
     margin: 20px 60px 20px 0px;
     font-family: 'Quicksand', sans-serif;
@@ -983,11 +982,11 @@ color: #FF5733;
     background-color: #a0dbd5;
 }
 
-.address p {
+.address1 p {
     background-color: #a0dbd5;
 }
 
-.hours {
+.hours1 {
     font-size: 1em;
     text-align: left;
     background-color: #a0dbd5;
