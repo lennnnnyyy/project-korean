@@ -1,0 +1,1022 @@
+@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Quicksand');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color:#ffeee6;
+}
+
+.aboutandcontact {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 80%;
+    position: absolute;
+}
+
+a {
+    color: #75a3a3;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    padding-left: 10px;
+}
+
+
+.header {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+	color: #FF5733;
+	font-family: 'Architects Daughter', cursive;
+	font-size: 350%;
+	letter-spacing: 1.5px;
+}
+
+.header2 {
+	color: #75a3a3;
+    background-color: #ffeee6;
+	font-family: 'Architects Daughter', cursive;
+    font-size: 230%;
+}
+
+h3 {
+	color: #75a3a3;
+	font-family: 'Architects Daughter', cursive;
+    font-size: 230%;
+}
+
+.navigation {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.home {
+     float: left;
+    background-image: url(../images/koreanpalacedoor.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 130%;
+    margin: 30px 40px 20px 40px;
+}    
+    
+.food { 
+    float: left;
+    background-image: url(../images/traditionalkoreanmeal.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 130%;
+    margin: 30px 40px 20px 40px;
+    
+}
+
+.drama {
+    float: left;
+    background-image: url(../images/BikeSquare.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 130%;
+    margin: 30px 40px 20px 40px;
+}
+
+.beauty {
+    float: left;
+    background-image: url(../images/pink_room.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 240px;
+    height:240px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 130%;
+    margin: 30px 40px 20px 40px;
+}
+
+.nav-heading {
+    color: #FF5733; /*orange #faa335 red #FF5733 - red easier to see*/
+    background-color: rgba(255,238,230,0.7);
+}
+
+.navigation div:hover {
+    transition-duration: 0.3s;
+    opacity: 0.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.questions {
+    clear: both;
+    color: #49919D;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 150%;
+    padding-top: 10px;
+    padding-left: 260px;
+    width: 100%;
+    
+}
+
+span {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 200%;
+    
+}    
+
+.stickyflowers {
+    width: 100px;
+    height: 130px;    
+    background: none;
+    bottom: 0;
+    right: 0;
+    float: right;
+    position: fixed;
+    overflow: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#footer {
+    clear: both;
+    width: 97%;
+    background-color: #a0dbd5;
+    text-align: justify;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.7em;
+    margin: 40px;
+    color: #a0dbd5;
+}
+
+/*Food Page*/
+
+.divide-4 {
+    max-width: 24.5%;
+    margin: .1%;
+}
+
+
+.food-about {
+    color: #635593;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    text-align: justify;
+    padding: 30px;
+}
+
+.korean-restaurant {
+    width: 97%;
+    background-color: #ffffff;
+    margin: 2%;
+    overflow: auto;
+}
+
+div>h3{
+   color: #ff5733;
+   font-family: 'Architects Daughter', cursive;
+   font-size: 300%;
+   text-align: center;
+   background-color: #ffffff;
+   padding-top: 5px;
+}
+
+.all-restaurant {
+    width: 100%;
+    min-height: 210px;
+    overflow: auto;
+    background-color: #ffffff;
+}
+
+.places {
+    float: left;
+    margin: 2% 0% 2% 3%;
+    position: relative; 
+    overflow: hidden;
+    width: 20%;
+    max-height: 180px;
+    max-width: 180px;
+    border-radius: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+}
+
+.places img {
+    max-width: 100%;
+    min-height: calc(100% + 10px);
+    overflow: visible;
+    border-radius: 50%;
+}
+
+.places h2 {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: calc(50% - 18px);
+}
+
+.places a {
+    height: 100%;
+}
+
+.places div:hover {
+    transition-duration: 0.3s;
+    opacity: 0.5;
+}
+
+.restaurant-title {
+    color: #ff5733;
+    background-color: rgba(255,238,230,0.7);
+}
+
+/*
+.place-about {
+    float: left;
+    width: 47%;
+    min-height: 165px;
+    padding: .7%;
+    margin: 2% 2% 2% 4%;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    color: #635593;
+}
+*/
+.address {
+    float: left;
+    margin: 2% 2% 2% 2%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: .9em;
+    padding: 1%;   
+    width: 15%;
+    background-color: #a0dbd5;
+}
+
+.address p {
+    background-color: #a0dbd5;
+}
+
+.hours {
+    display: block;
+    font-size: 1em;
+    text-align: left;
+    background-color: #a0dbd5;
+}
+
+.korean-dishes {
+    width: 97%;
+    background-color: #ffffff;
+    margin: 2%;
+    overflow: auto;
+    position: relative;
+}
+
+.dishes img {
+    max-width: 100%;
+    min-height: calc(100% + 10px);
+    overflow: visible;
+    border-radius: 50%;
+}
+
+.dish-about {
+    float: left;
+    width: 63%;
+    height: 190px;
+    padding: 20px;
+    margin: 3.5% 2% 2% 5%;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    color: #635593;
+}
+
+.dishes {
+    float: left;
+    margin: 2% 2% 2% 6%;
+    position: relative; 
+    overflow: hidden;
+    width: 20%;
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+}
+
+/*
+.dishes div:hover {
+    transition-duration: 0.3s;
+    opacity: 0.5;
+}
+*/
+
+.dish h2 {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: calc(50% - 18px);
+}
+
+.dish-title {
+    color: #ff5733;
+    background-color: rgba(255,238,230,0.7);
+}
+
+
+.emphasis {
+    font-weight: 100;
+}
+
+/* -----kdrama------*/
+/*.koreandramas {
+    color: #FF5733;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Quicksand', sans-serif;
+} */
+
+.aboutkorean {
+    color: #635593;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+    padding: 30px;
+}
+
+.dramapics img {
+    width: 90%;
+}
+
+.dramapics {
+    text-align: center;
+}
+
+.trykoreandramas {
+   color: #ff5733;
+   font-family: 'Architects Daughter', cursive;
+   font-size: 300%;
+   text-align: center;
+   padding-top: 5px;
+}
+
+.autumn {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 30px 40px 20px 40px;
+}
+
+.winter {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 30px 40px 20px 40px;
+}
+
+.boys {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 30px 40px 20px 40px;
+}
+
+.secret {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 30px 40px 20px 40px;
+}
+
+.coffee {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 30px 40px 20px 40px;
+}
+
+.autumn:hover {
+    opacity: 0.5;
+}
+
+.winter:hover {
+    opacity: 0.5;
+}
+
+.boys:hover {
+    opacity: 0.5;
+}
+
+.secret:hover {
+    opacity: 0.5;
+}
+
+.coffee:hover {
+    opacity: 0.5;
+}
+
+#autumn {
+    display: inline-block;
+}
+
+#autumntext {
+    width: 70%;
+    color: #49919D;
+    background-color: #ededed;
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+    margin-right: 50px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+#wintertext {
+    width: 70%;
+    color: #49919D;
+    background-color: #ededed;
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+    margin-right: 50px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+#boystext {
+    width: 70%;
+    color: #49919D;
+    background-color: #ededed;
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+    margin-right: 50px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+#secrettext {
+    width: 70%;
+    color: #49919D;
+    background-color: #ededed;
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+    margin-right: 50px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+#coffeetext {
+    width: 70%;
+    color: #49919D;
+    background-color: #ededed;
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+    margin-right: 50px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+
+/* -------  B E A U T Y    P A G E ---------- */
+
+.kbeauty  {
+color: #FF5733;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.beauty-about {
+    color: #635593;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 1.1em;
+    text-align: justify;
+    padding: 30px;
+}
+
+.coverpix {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 30px 40px 20px 40px;
+    display: inline-block;
+}
+.beautypix {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 30px 40px 20px 40px;
+}
+
+
+.places {
+    margin-left: 70px;
+    position: relative;
+}
+
+.places div:hover {
+    transition-duration: 0.3s;
+    opacity: 0.5;
+}
+.trends {
+    width: 97%;
+    height: 1600px;
+    background-color: #ffffff;
+    margin: 20px;
+    position: relative;
+}
+
+.trends-about {
+    float: left;
+    width: 65%;
+    height: 170px;
+    padding: 20px;
+    margin: 20px 20px 20px 90px;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    color: #635593;
+}
+
+.trends {
+    float: right;
+    margin-right: 70px;
+    background-color: #ffffff;
+}
+
+.trends div:hover {
+    transition-duration: 0.3s;
+    opacity: 0.5;
+}
+
+.trendstitle {
+    color: #ff5733;
+    background-color: rgba(255,238,230,0.7);
+}
+
+.multi {
+    float: right;
+    background-image: url(../images/maskmodel.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+    margin: 20px; 
+}
+
+.sheetmasks {
+    float: left;
+    background-image: url(../images/sheet_masks.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+    margin: 20px; 
+}
+
+.snails {
+    float: left;
+    background-image: url(../images/snailproducts.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+    margin: 20px; 
+}
+
+.packaging {
+    float: left;
+    background-image: url(../images/beautynav.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+    margin: 20px; 
+}
+
+.blogs {
+    width: 97%;
+    height: 1600px;
+    background-color: #ffffff;
+    margin: 20px;
+    position: relative;
+    float: right;
+    margin-right: 70px;
+    background-color: #ffffff;
+}
+
+.blogs-about {
+    float: left;
+    width: 65%;
+    height: 170px;
+    padding: 20px;
+    margin: 20px 20px 20px 90px;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    color: #635593;
+}
+
+
+.blogs div:hover {
+    transition-duration: 0.3s;
+    opacity: 0.5;
+}
+
+.blog-title {
+    color: #ff5733;
+    background-color: rgba(255,238,230,0.7);
+}
+
+.blogs {
+    float: right;
+    background-image: url(../images/lip_art.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+    margin: 20px; 
+}
+
+
+.beauty-about {
+    color: #635593;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+    padding: 30px;
+}
+
+.multi {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 30px 40px 20px 40px;
+}
+
+.masks {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 30px 40px 20px 40px;
+}
+
+.snails {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 30px 40px 20px 40px;
+}
+
+.packaging {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 30px 40px 20px 40px;
+}
+
+.blogs {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 30px 40px 20px 40px;
+}
+
+.shops {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 30px 40px 20px 40px;
+}
+
+.multi:hover {
+    opacity: 0.5;
+}
+
+.masks:hover {
+    opacity: 0.5;
+}
+
+.snails:hover {
+    opacity: 0.5;
+}
+
+.packaging:hover {
+    opacity: 0.5;
+}
+
+.blogs:hover {
+    opacity: 0.5;
+}
+
+.shops:hover {
+    opacity: 0.5;
+}
+
+#multi {
+    display: inline-block;
+}
+
+#multitext {
+    width: 70%;
+    color: #49919D;
+    background-color: #ededed;
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+    margin-right: 50px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+#maskstext {
+    width: 70%;
+    color: #49919D;
+    background-color: #ededed;
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+    margin-right: 50px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+#snailstext {
+    width: 70%;
+    color: #49919D;
+    background-color: #ededed;
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+    margin-right: 50px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+#packagingtext {
+    width: 70%;
+    color: #49919D;
+    background-color: #ededed;
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+    margin-right: 50px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+#blogstext {
+    width: 70%;
+    color: #49919D;
+    background-color: #ededed;
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+    margin-right: 50px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+#shopstext {
+    width: 70%;
+    color: #49919D;
+    background-color: #ededed;
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+    margin-right: 50px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+
+.ul {
+    list-style-type: square;
+}
+
+
+/*  S T Y L I N G    FOR    S H O P S **/
+
+.shops {
+    width: 97%;
+    height: 1200px;
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+.shop-title {
+    color: #ff5733;
+    background-color: rgba(255,238,230,0.7);
+}
+
+.shops {
+    float: left;
+    background-image: url(../images/tonymolylipbar.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+    margin: 20px; 
+    max-width: 20%;
+    height: 20%;
+}
+
+.shop2 {
+    float: left;
+    background-image: url(../images/flower_crown.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+    margin: 20px; 
+}
+
+.shop3 {
+    float: left;
+    background-image: url(../images/flower_crown.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+    margin: 20px; 
+}
+
+.shop4 {
+    float: left;
+    background-image: url(../images/flower_crown.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+    margin: 20px; 
+}
+
+.shop5 {
+    float: left;
+    background-image: url(../images/autumn-leaves.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+    margin: 20px; 
+}
+
+.place-about {
+    float: left;
+    width: 48%;
+    height: 140px;
+    padding: 20px;
+    margin: 20px 50px;
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2em;
+    color: #635593;
+}
+
+.address {
+    float: right;
+    margin: 20px 60px 20px 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: .9em;
+    padding: 20px;
+    height: 140px;
+    width: 15%;
+    background-color: #a0dbd5;
+}
+
+.address p {
+    background-color: #a0dbd5;
+}
+
+.hours {
+    font-size: 1em;
+    text-align: left;
+    background-color: #a0dbd5;
+}
+
+
+/* -----about------*/
+
+.aboutheading {
+    margin-left: 30px;
+}
+.abouttext {
+    color: #635593;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* -----contact------*/
+.contactheading  {
+    margin-left: 30px;
+}
+
+.contacttext a {
+    color: #635593;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+    padding-left: 30px;
+}
