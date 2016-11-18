@@ -147,8 +147,7 @@ a {
 
 span {
     font-family: 'Architects Daughter', cursive;
-    font-size: 200%;
-    
+    font-size: 1.3em;
 }    
 
 .stickyflowers {
@@ -172,7 +171,7 @@ span {
     font-family: 'Architects Daughter', cursive;
     font-size: 1.7em;
     margin: 40px;
-    color: #a0dbd5;
+    color: #FF5733;
 }
 
 /*Food Page*/
@@ -246,10 +245,12 @@ div>h3{
     height: 100%;
 }
 
+/*
 .places div:hover {
     transition-duration: 0.3s;
     opacity: 0.5;
 }
+*/
 
 .restaurant-title {
     color: #ff5733;
@@ -308,9 +309,9 @@ div>h3{
 .dish-about {
     float: left;
     width: 63%;
-    height: 190px;
-    padding: 20px;
-    margin: 3.5% 2% 2% 5%;
+    height: 195px;
+    padding: 15px;
+    margin: 2.5% 2% 2% 5%;
     text-align: justify;
     font-family: 'Quicksand', sans-serif;
     font-size: 1em;
@@ -319,7 +320,7 @@ div>h3{
 
 .dishes {
     float: left;
-    margin: 2% 2% 2% 6%;
+    margin: 2% 2% 2% 5%;
     position: relative; 
     overflow: hidden;
     width: 20%;
@@ -897,11 +898,11 @@ color: #FF5733;
 
 .shop2 {
     float: left;
-    background-image: url(../images/flower_crown.jpg);
+    background-image: url(../images/tonymolydisplaycase.jpg);
     background-position: center;
     background-size: cover;
-    width: 180px;
-    height: 180px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -913,11 +914,11 @@ color: #FF5733;
 
 .shop3 {
     float: left;
-    background-image: url(../images/flower_crown.jpg);
+    background-image: url(../images/clubcliosign.jpg);
     background-position: center;
     background-size: cover;
-    width: 180px;
-    height: 180px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -929,27 +930,11 @@ color: #FF5733;
 
 .shop4 {
     float: left;
-    background-image: url(../images/flower_crown.jpg);
+    background-image: url(../images/saemsign.jpg);
     background-position: center;
     background-size: cover;
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 110%;
-    margin: 20px; 
-}
-
-.shop5 {
-    float: left;
-    background-image: url(../images/autumn-leaves.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 180px;
-    height: 180px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
