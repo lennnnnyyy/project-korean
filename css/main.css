@@ -513,6 +513,23 @@ div>h3{
 
 /* -------  B E A U T Y    P A G E ---------- */
 
+
+
+.beauty-ul {
+    text-align: center;
+    margin: auto;
+    
+}
+
+.bheader2 {
+    color: #FF5733;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 230%;
+    background-color: #ffeee6;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .kbeauty  {
 color: #FF5733;
     text-align: center;
@@ -529,54 +546,87 @@ color: #FF5733;
     padding: 30px;
 }
 
-.coverpix {
+.cover-pix {
+    text-align: center;
+    width: 80%;
+    margin: 30px 40px 20px 40px;
+    padding: 5px;
+    position: relative;
+    display: inline-block;
+
+}
+.cover-container {
+    display: inline-block;
+    width: 75%;
+    text-align: center;
+    color: #49919D;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.beauty-container {
+    margin: auto;  
+    overflow: auto;
+	width: 80%;
+    color: #49919D;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid #FF5733;
+}
+
+.beauty-pix {
+    float: left;
+}
+
+.beauty-img img {
+    display: block;
+}
+
+
+#beautytext {
+    width: 70%;
+    color: #49919D;
+    background-color: #ededed;
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+    margin-left:210px;
+    font-weight: bold;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.beauty img {
+    max-width: 100%;
+    min-height: calc(100% + 10px);
+    overflow: visible;
+    border-radius: 50%;
+}
+
+.trends-about {
+   color: #ff5733;
+   font-family: 'Architects Daughter', cursive;
+   font-size: 300%;
+   text-align: center;
+   padding-top: 5px;
+   background-color: rgba(255,238,230,0.7);
+}
+
+#trends {
+    display: inline-block;
+}
+
+
+.trendspix {
     width: 180px;
     height: 180px;
     border-radius: 50%;
     margin: 30px 40px 20px 40px;
-    position: relative ;
-    display: inline-block;
-}
-.beautypix {
-    width: 20%;
-    height: 20%;
-    border-radius: 50%;
-    margin: 30px 40px 20px 40px;
+    display:inline-block;
 }
 
-.places {
-    margin-left: 70px;
-    position: relative;
-}
-
-.places div:hover {
-    transition-duration: 0.3s;
+.trends:hover {
     opacity: 0.5;
-}
-.trends {
-    width: 97%;
-    height: 180px;
-    background-color: #ffffff;
-    margin: 20px;
-    position: relative;
-}
-
-.trends-about {
-    float: left;
-    width: 65%;
-    height: 170px;
-    padding: 20px;
-    margin: 20px 20px 20px 90px;
-    text-align: justify;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 1.2em;
-    color: #635593;
-}
-
-.trends {
-    float: right;
-    margin-right: 70px;
-    background-color: #ffffff;
 }
 
 .trends div:hover {
@@ -584,13 +634,8 @@ color: #FF5733;
     opacity: 0.5;
 }
 
-.trendstitle {
-    color: #ff5733;
-    background-color: rgba(255,238,230,0.7);
-}
-
 .multi {
-    float: right;
+    float: left;
     background-image: url(../images/maskmodel.jpg);
     background-position: center;
     background-size: cover;
@@ -606,7 +651,7 @@ color: #FF5733;
 }
 
 .sheetmasks {
-    float: left;
+    position: relative;
     background-image: url(../images/sheet_masks.jpg);
     background-position: center;
     background-size: cover;
@@ -689,7 +734,7 @@ color: #FF5733;
 }
 
 .blogs {
-    float: right;
+    float: left;
     background-image: url(../images/lip_art.jpg);
     background-position: center;
     background-size: cover;
@@ -783,92 +828,82 @@ color: #FF5733;
     display: inline-block;
 }
 
-#multitext {
-    width: 70%;
-    color: #49919D;
-    background-color: #ededed;
+
+#trendstext {
     font-family: 'Quicksand', sans-serif;
     float: right;
     margin-right: 50px;
-    font-weight: bold;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+#multitext {
+    font-family: 'Quicksand', sans-serif;
+    float: right;
+    margin-right: 50px;
     padding: 25px;
     margin: 15px;
     border-radius: 20px;
 }
 
 #maskstext {
-    width: 70%;
-    color: #49919D;
-    background-color: #ededed;
     font-family: 'Quicksand', sans-serif;
     float: right;
     margin-right: 50px;
-    font-weight: bold;
     padding: 25px;
     margin: 15px;
     border-radius: 20px;
 }
 
 #snailstext {
-    width: 70%;
-    color: #49919D;
-    background-color: #ededed;
     font-family: 'Quicksand', sans-serif;
     float: right;
     margin-right: 50px;
-    font-weight: bold;
     padding: 25px;
     margin: 15px;
     border-radius: 20px;
 }
 
 #packagingtext {
-    width: 70%;
-    color: #49919D;
-    background-color: #ededed;
     font-family: 'Quicksand', sans-serif;
     float: right;
     margin-right: 50px;
-    font-weight: bold;
     padding: 25px;
     margin: 15px;
     border-radius: 20px;
 }
 
 #blogstext {
-    width: 70%;
-    color: #49919D;
-    background-color: #ededed;
     font-family: 'Quicksand', sans-serif;
     float: right;
     margin-right: 50px;
-    font-weight: bold;
     padding: 25px;
     margin: 15px;
     border-radius: 20px;
 }
 
 #shopstext {
-    width: 70%;
-    color: #49919D;
-    background-color: #ededed;
     font-family: 'Quicksand', sans-serif;
     float: right;
     margin-right: 50px;
-    font-weight: bold;
     padding: 25px;
     margin: 15px;
     border-radius: 20px;
 }
 
-
-.ul {
-    list-style-type: square;
-}
-
-
 /*  S T Y L I N G    FOR    S H O P S **/
 
+
+.places1 {
+    margin-left: 70px;
+    position: relative;
+}
+
+.places1 div:hover {
+    transition-duration: 0.3s;
+    opacity: 0.5;
+}
 .shops {
     width: 97%;
     height: 1200px;
@@ -881,7 +916,7 @@ color: #FF5733;
     background-color: rgba(255,238,230,0.7);
 }
 
-.shops {
+.shop1 {
     float: left;
     background-image: url(../images/tonymolylipbar.jpg);
     background-position: center;
@@ -893,27 +928,11 @@ color: #FF5733;
     font-family: 'Quicksand', sans-serif;
     font-size: 110%;
     margin: 20px; 
-    max-width: 20%;
+    width 180px;
     height: 20%;
 }
 
 .shop2 {
-    float: left;
-    background-image: url(../images/tonymolydisplaycase.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 110%;
-    margin: 20px; 
-}
-
-.shop3 {
     float: left;
     background-image: url(../images/clubcliosign.jpg);
     background-position: center;
@@ -929,9 +948,25 @@ color: #FF5733;
     margin: 20px; 
 }
 
-.shop4 {
+.shop3 {
     float: left;
     background-image: url(../images/saemsign.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 110%;
+    margin: 20px; 
+}
+
+.shop4 {
+    float: left;
+    background-image: url(../images/skinfoodstore.jpg);
     background-position: center;
     background-size: cover;
     width: 50px;
